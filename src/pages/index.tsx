@@ -24,7 +24,7 @@ export default function Homepage() {
         </Link>
         {/* main */}
         {/* jam operasional cafe */}
-        <div className="relative flex flex-col items-center justify-center font-lato py-[200px] bg-black">
+        <div className="relative flex flex-col items-center justify-center font-lato py-[250px] bg-black">
           <video autoPlay loop muted playsInline className="absolute w-full h-full object-cover z-10 fadeInAnimation">
             <source src="/video/videoDashboard.mp4" type="video/mp4"/>
           </video>
