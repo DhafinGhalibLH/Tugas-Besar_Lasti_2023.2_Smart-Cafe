@@ -16,7 +16,7 @@ const Reservation: React.FC = () => {
             <div className='my-8'>
             <label className='my-8'>Date</label>
             <input type ="text" className="border-2 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-brown-500" placeholder="Input your date"></input></div>
-            <div className="flex items-center justify-around bg-[#846046] w-[267px] h-[57px] rounded-[30px] px-[50px] mt-[300px] mb-[33px] mx-[25px] hover:brightness-110">
+            <div className="flex items-center justify-around bg-[#846046] w-[267px] h-[57px] rounded-[30px] px-[50px] mt-[300px] mb-[33px] mx-[45px] hover:brightness-110">
               <p className="text-body1 text-white font-poppins">Save Reservation</p>
             </div>
     </div>
