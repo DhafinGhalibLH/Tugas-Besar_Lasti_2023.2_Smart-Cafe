@@ -67,7 +67,7 @@ export default function Homepage() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a risus elementum, tempus justo ut, accumsan tortor. Aliquam vitae ex mattis, scelerisque nunc laoreet, sagittis metus. Etiam odio est, volutpat sed tempus nec, malesuada vehicula lectus.
           </p>
           {/* button  */}
-          <Link href="/menu">
+          <Link href="/menudrink">
             <div className="flex items-center justify-around bg-[#846046] w-[267px] h-[57px] rounded-[30px] px-[20px] mt-[13px] mb-[33px] hover:brightness-110">
               <p className="text-body1 text-white font-poppins">See More of Our Menu</p>
               <Image src="/images/arrow.svg" alt="arrow" width={21} height={21}/>
