@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Footer from '@/components/footer/footer';
 
-const Menu: React.FC = () => {
+const Menusnack: React.FC = () => {
     return (
        <div className=' h-56 bg-white bg-cover bg-center bg-[url("/images/bg-menu.png")] font-lato'>
         <Navbar/>
@@ -15,14 +15,16 @@ const Menu: React.FC = () => {
             Categories
             <div className='flex my-4'>
                 <div>
-                    <div className='flex  w-28 shadow-lg rounded-3xl bg-[#846046] p-3'>
-                        <div className='w-fit h-fit rounded-full flex items-center  bg-white'>
+                    <Link href='/menu'>
+                    <div className='text-[#3A3A3A] flex w-28 shadow-lg rounded-3xl bg-white p-3 hover:bg-[#846046] hover:text-white'>
+                        <div className='w-fit h-fit rounded-full flex items-center  bg-[#846046]'>
                             <Image src='/images/bg-drink.svg' width={25} height={50} alt="logo drink" className='rounded-full'/>
                         </div>
-                        <div className='font-semibold ml-2 text-white text-'>
+                        <div className='font-semibold ml-2'>
                             Drink
                         </div>
                     </div>
+                    </Link>
                 </div>
                 <div>
                     <Link href='/menufood'>
@@ -30,7 +32,7 @@ const Menu: React.FC = () => {
                         <div className='w-fit h-fit rounded-full flex items-center  bg-[#846046]'>
                             <Image src='/images/food.svg' width={50} height={50} alt="logo drink" className='rounded-full'/>
                         </div>
-                        <div className='font-semibold ml-2 '>
+                        <div className='font-semibold ml-2 text-[#3A3A3A]'>
                             Food
                         </div>
                     </div>
@@ -39,11 +41,11 @@ const Menu: React.FC = () => {
                 </div>
                 <div>
                     <Link href='/menusnack'>
-                    <div className='flex w-28 shadow-lg rounded-3xl bg-white p-3 text-white hover:bg-[#846046] hover:text-white'>
-                        <div className='w-fit h-fit rounded-full flex items-center bg-[#846046]'>
-                            <Image src='/images/snack.png' width={25} height={50} alt="logo drink" className='rounded-full'/>
+                    <div className='text-white flex w-28 shadow-lg rounded-3xl bg-[#846046] p-3'>
+                        <div className='w-fit h-fit rounded-full flex items-center bg-white'>
+                            <Image src='/images/snack.png' width={50} height={50} alt="logo drink" className='rounded-full'/>
                         </div>
-                        <div className='font-semibold ml-2 text-[#3A3A3A]'>
+                        <div className='font-semibold ml-2'>
                             Snack
                         </div>
                     </div>
@@ -52,7 +54,7 @@ const Menu: React.FC = () => {
                 </div>
 
             </div>
-                <div className='font-bold text-[#34100A] my-4'>
+            <div className='font-bold text-[#34100A] my-4'>
                     Popular Now
                 </div>
                 <div className='grid grid-cols-2 gap-8'>
@@ -112,4 +114,4 @@ const Menu: React.FC = () => {
     )
 };
 
-export default Menu;
+export default Menusnack;
