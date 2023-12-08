@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
+import SlideableMenu from "@/components/slideableMenu/slideableMenu";
 import Reservation from "@/components/reservation/reservation";
 
 const operationalSchedule = [
@@ -27,7 +28,7 @@ export default function Homepage() {
           <video autoPlay loop muted playsInline className="absolute w-full h-full object-cover z-10 fadeInAnimation">
             <source src="/video/videoDashboard.mp4" type="video/mp4"/>
           </video>
-          <div className="z-20">
+          <div className="z-10">
             <p className="text-heading2 text-[#C4AA97] ">open</p>
               <div className="h-[1px] w-[222px] my-[18px] bg-white"></div>
               {operationalSchedule.map((schedule, index) => (
@@ -48,13 +49,13 @@ export default function Homepage() {
           </div>
           <div className="flex flex-col items-center justify-center text-center px-[40px]">
             <p className="font-poppins text-body2 text-black py-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a risus elementum, tempus justo ut, accumsan tortor. Aliquam vitae ex mattis, scelerisque nunc laoreet, sagittis metus. Etiam odio est, volutpat sed tempus nec, malesuada vehicula lectus.
+            Selamat datang di Cafe ITB! Kami adalah pusat kopi di tengah inovasi kampus. Rasakan kopi berkualitas dalam suasana yang nyaman. Cocok untuk belajar, bertemu teman, atau sekadar menikmati momen sendirian. Bergabunglah dengan kami dan nikmati keunggulan kopi dalam semangat dinamis ITB!
             </p>
             <Image src="/images/map.svg" alt="map" width={308} height={174}/>
           </div>
           <div className="flex flex-row items-center px-[40px] py-[16px]">
               <Image src="/images/marker.svg" alt="marker" width={24} height={24}/>
-              <p className="font-poppins text-caption text-black">Jalan XXX</p>
+              <p className="font-poppins text-caption text-black">ITB Kampus Jatinangor</p>
             </div>
         </div>
         {/* our bestsellers */}
@@ -62,13 +63,10 @@ export default function Homepage() {
           <div className="flex flex-col items-center justify-center w-full h-[87px]" style={{ backgroundImage: `url(/images/tanganKopi.svg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
             <p className="font-lato text-h1mobile text-[#D0CFCF] text-center">OUR <br></br>BEST SELLERS</p>
           </div>
-          {/* menu items that can slide with touchpad, and slide with mouse on drag */}
-            <div className="flex flex-col items-center justify-center text-center mt-[54px]">
-              <Image src="/images/kopi.svg" alt="kopi" width={308} height={174}/>
-              <p className="text-h2mobile text-black mb-[40px]">Cappucino</p>
-            </div>
+          {/* slideable menu items*/}
+            <SlideableMenu/>
           <p className="font-poppins text-body2 text-black text-center mx-[40px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a risus elementum, tempus justo ut, accumsan tortor. Aliquam vitae ex mattis, scelerisque nunc laoreet, sagittis metus. Etiam odio est, volutpat sed tempus nec, malesuada vehicula lectus.
+          Dipenuhi dengan cita rasa yang memikat dan kelezatan yang tak tertandingi, hidangan ini adalah persembahan kami untuk pencinta kuliner. Setiap suap menghadirkan harmoni rasa dari bahan-bahan pilihan, dipadukan dengan sentuhan kreatif yang unik.
           </p>
           {/* button  */}
           <Link href="/menudrink">
