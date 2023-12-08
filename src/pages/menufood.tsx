@@ -59,23 +59,14 @@ const Menufood: React.FC = () => {
                 </div>
                 <div className='grid grid-cols-2 gap-8'>
                     <div className='text-black'>
-                        <Image src="/images/menu1.svg" alt="gambar menu" width={155} height={20}/>
-                        <h1 className='text-sm mt-2 ml-3'>Cappucino</h1>
-                        <p className='font-thin text-xs ml-3'>With Chocolate</p>
+                        <Image src="/images/food1.svg" alt="gambar menu" width={155} height={20}/>
+                        <h1 className='text-sm mt-2 ml-3'>Spaghetti</h1>
+                        <p className='font-thin text-xs ml-3'>Carbonara</p>
                     </div>
                     <div className='text-black'>
-                        <Image src="/images/menu1.svg" alt="gambar menu" width={155} height={20}/>
-                        <h1 className='text-sm mt-2 ml-3'>Cappucino</h1>
-                        <p className='font-thin text-xs ml-3'>With Chocolate</p>
-                    </div>
-                    <div className='text-black'>
-                        <Image src="/images/menu1.svg" alt="gambar menu" width={155} height={20}/>
-                        <h1 className='text-sm mt-2 ml-3'>Cappucino</h1>
-                        <p className='font-thin text-xs ml-3'>With Chocolate</p>
-                    </div><div className='text-black'>
-                        <Image src="/images/menu1.svg" alt="gambar menu" width={155} height={20}/>
-                        <h1 className='text-sm mt-2 ml-3'>Cappucino</h1>
-                        <p className='font-thin text-xs ml-3'>With Chocolate</p>
+                        <Image src="/images/food3.svg" alt="gambar menu" width={155} height={20}/>
+                        <h1 className='text-sm mt-2 ml-3'>Sambal Matah</h1>
+                        <p className='font-thin text-xs ml-3'>Rice Bowl</p>
                     </div>
                 </div>
                 <div className='font-bold text-[#34100A] mt-4 mb-3'>
@@ -89,23 +80,23 @@ const Menufood: React.FC = () => {
                 </div>
                 <div className='grid grid-cols-2 gap-8'>
                     <div className='text-black'>
-                        <Image src="/images/menu1.svg" alt="gambar menu" width={155} height={20}/>
-                        <h1 className='text-sm mt-2 ml-3'>Cappucino</h1>
-                        <p className='font-thin text-xs ml-3'>With Chocolate</p>
+                        <Image src="/images/food2.svg" alt="gambar menu" width={155} height={20}/>
+                        <h1 className='text-sm mt-2 ml-3'>Spaghetti</h1>
+                        <p className='font-thin text-xs ml-3'>Bolognese</p>
                     </div>
                     <div className='text-black'>
-                        <Image src="/images/menu1.svg" alt="gambar menu" width={155} height={20}/>
-                        <h1 className='text-sm mt-2 ml-3'>Cappucino</h1>
-                        <p className='font-thin text-xs ml-3'>With Chocolate</p>
+                        <Image src="/images/food1.svg" alt="gambar menu" width={155} height={20}/>
+                        <h1 className='text-sm mt-2 ml-3'>Spaghetti</h1>
+                        <p className='font-thin text-xs ml-3'>Carbonara</p>
                     </div>
                     <div className='text-black'>
-                        <Image src="/images/menu1.svg" alt="gambar menu" width={155} height={20}/>
-                        <h1 className='text-sm mt-2 ml-3'>Cappucino</h1>
-                        <p className='font-thin text-xs ml-3'>With Chocolate</p>
+                        <Image src="/images/food3.svg" alt="gambar menu" width={155} height={20}/>
+                        <h1 className='text-sm mt-2 ml-3'>Sambal Matah</h1>
+                        <p className='font-thin text-xs ml-3'>Rice Bowl</p>
                     </div><div className='text-black'>
-                        <Image src="/images/menu1.svg" alt="gambar menu" width={155} height={20}/>
-                        <h1 className='text-sm mt-2 ml-3'>Cappucino</h1>
-                        <p className='font-thin text-xs ml-3'>With Chocolate</p>
+                        <Image src="/images/food4.svg" alt="gambar menu" width={155} height={20}/>
+                        <h1 className='text-sm mt-2 ml-3'>Sambal Bawang</h1>
+                        <p className='font-thin text-xs ml-3'>Rice Bowl</p>
                     </div>
                 </div>
         </div>
