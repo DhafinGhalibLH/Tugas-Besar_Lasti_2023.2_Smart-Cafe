@@ -8,7 +8,7 @@ const Menufood: React.FC = () => {
     return (
        <div className=' h-56 bg-white bg-cover bg-center bg-[url("/images/bg-menu.png")] font-lato'>
         <Navbar/>
-        <div className=' h-28 flex items-center justify-center text-3xl'>
+        <div className=' h-28 flex items-center justify-center text-3xl  text-white'>
             Our Menu
         </div>
         <div className='h-fit bg-white rounded-3xl p-5 text-[#34100A] font-bold text-xl'>
