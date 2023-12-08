@@ -17,6 +17,10 @@ export default function Homepage() {
       <div className="h-full w-full md:w-[375px] bg-white">
         {/* navbar */}
         <Navbar/>
+        {/* reservation */}
+        <Link href="/reservation">
+        <Reservation />
+        </Link>
         {/* main */}
         {/* jam operasional cafe */}
         <div className="relative flex flex-col items-center justify-center font-lato py-[200px] bg-black">

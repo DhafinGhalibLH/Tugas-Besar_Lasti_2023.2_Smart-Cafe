@@ -13,10 +13,6 @@ export default function Navbar() {
                 </div>
                 <Image src="images/dropdown.svg" alt="dropdown" width={35} height={25}/>
             </div>
-            {/* reservation */}
-            <Link href="/reservation">
-                    <Reservation />
-            </Link>
         </div>
     )
 }
