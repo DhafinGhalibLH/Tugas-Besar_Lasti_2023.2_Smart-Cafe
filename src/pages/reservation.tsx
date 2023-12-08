@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from "@/components/footer/footer";
-import Navbar from "@/components/navbar/navbardoang";
+import Navbar from "@/components/navbar/navbar";
 
 
 const Reservation: React.FC = () => {
