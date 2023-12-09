@@ -17,7 +17,7 @@ const Menufood: React.FC = () => {
                     Categories
                     <div className='flex my-4'>
                         <div>
-                            <Link href='/menu'>
+                            <Link href='/menudrink'>
                             <div className='text-[#3A3A3A] flex w-28 shadow-lg rounded-3xl bg-white p-3 hover:bg-[#846046] hover:text-white'>
                                 <div className='w-fit h-fit rounded-full flex items-center  bg-[#846046]'>
                                     <Image src='/images/bg-drink.svg' width={25} height={50} alt="logo drink" className='rounded-full'/>
