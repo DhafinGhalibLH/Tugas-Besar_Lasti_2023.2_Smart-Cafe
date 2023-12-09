@@ -24,9 +24,9 @@ const Login: React.FC = () => {
           <Link href="#gugel">
             <Image className="my-[10px]" src="/images/gugel.svg" alt="gugel" width={28} height={28}/>
           </Link>
-          <div className="text-orange-950 text-center text-sm pb-[80px]">
+          <div className="text-orange-950 text-center text-sm pb-[170px]">
             <span className="">Don&apos;t have an account?</span>
-            <span className="font-bold"> Sign Up</span>
+            <Link href="/signup"><span className="font-bold"> Sign Up</span></Link>
           </div>
         </div>
       </div>

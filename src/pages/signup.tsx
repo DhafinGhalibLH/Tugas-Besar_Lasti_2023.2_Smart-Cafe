@@ -30,7 +30,7 @@ const Signup: React.FC = () => {
           </Link>
           <div className="text-orange-950 text-center text-sm pb-[80px]">
             <span className="">Already have an account?</span>
-            <span className="font-bold"> Login</span>
+            <Link href="/login"><span className="font-bold"> Login</span></Link>
           </div>
         </div>
       </div>
