@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import Reservation from "../reservation/reservation";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
