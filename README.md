@@ -1,40 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <br>
+    Tugas Besar Layanan Sistem dan Teknologi Informasi STI 21
+  <br>
+</h1>
 
-## Getting Started
+<h2 align="center">
+  <br>
+    Website Smart Cafe
+  <br>
+</h2>
 
-First, run the development server:
+Pengerjaan tugas besar mata kuliah Layanan Sistem dan Teknologi Informasi program studi STI tahun ajaran 2023/2024
+Anggota kelompok 1 K3:
+1. Khairunnisa Hurun 'Iin       18221004
+2. Anindita Putri Paramarta     18221019
+3. Dhafin Ghalib Luqman Hakim   18221023
+4. Vasya Izza Parsa             18221030
+5. Anjani Ibrahim               18221031
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Penjelasan mengenai aplikasi
+Proyek dirancang untuk membantu cafe untuk memberikan pelayanan terbaik melalui website. Dengan adanya proyek pengembangan layanan melalui website ini, diharapkan cafe dapat memenuhi kebutuhan proses bisnisnya dengan lebih smart. Proses bisnis tersebut yaitu : 
+1. Pengadaan bahan baku
+2. Mengelola karyawan
+3. Operasional harian
+4. Pelayanan pelanggan
+5. Manajemen Keuangan
+
+Pada implementasi, proyek berfokus pada proses bisnis operasional harian yang memungkinkan pengguna untuk melihat jam operasional cafe, melihat menu, dan melakukan reservasi melalui website serta menerima notifikasi
+
+
+## Cara menjalankan aplikasi
+Clone repositori ini dan masuk ke direktori repositori lokal yang telah dibuat
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    git clone https://github.com/DhafinGhalibLH/Tugas-Besar_Lasti_2023.2_Smart-Cafe.git
+```
+Kemudian buka direktori di terminal, dan jalankan perintah berikut untuk menginstall semua modul yang dibutuhkan
+```
+    npm install i
+```
+Setelah proses instalasi selesai, jalankan perintah berikut untuk memulai server
+```
+    npm run dev
+```
+lalu buka [http://localhost:3000/](http://localhost:3000/) di browser kalian untuk mengakses website
