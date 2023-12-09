@@ -4,7 +4,6 @@ import Link from "next/link";
 import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
 import SlideableMenu from "@/components/slideableMenu/slideableMenu";
-import Reservation from "@/components/reservation/reservation";
 
 const operationalSchedule = [
   { day: 'MONDAY - FRIDAY', hours: '11:00 AM - 10:00PM' },
@@ -16,12 +15,10 @@ export default function Homepage() {
   return (
     <div className="base flex flex-col items-center justify-center bg-white">
       <div className="h-full w-full md:w-[390px] bg-white">
-        {/* navbar */}
-        <Navbar/>
-        {/* reservation */}
-        <Link href="/reservation">
-        <Reservation />
-        </Link>
+        <div>
+          {/* navbar */}
+          <Navbar/>
+        </div>
         {/* main */}
         {/* jam operasional cafe */}
         <div className="relative flex flex-col items-center justify-center font-lato py-[250px] bg-black">
@@ -77,6 +74,7 @@ export default function Homepage() {
           </Link>
         </div>
       </div>
+
       {/* footer */} 
       <Footer />
     </div>
