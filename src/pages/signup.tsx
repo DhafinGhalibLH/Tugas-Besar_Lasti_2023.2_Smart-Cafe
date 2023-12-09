@@ -4,6 +4,8 @@ import Image from 'next/image';
 
 const Signup: React.FC = () => {
     return (
+      <div className='base flex flex-col items-center justify-center'>
+      <div className="h-full w-full md:w-[390px]">
       <div className="bg-black">
         <div className="flex flex-col items-center justify-center w-full h-[210px]" style={{ backgroundImage: `url(/images/bg-menu.png)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', }}>
             <p className="font-lato text-heading3 font-bold text-[#D0CFCF]">SIGN UP</p>
@@ -21,9 +23,11 @@ const Signup: React.FC = () => {
             <label className='my-8'>Confirm Password</label>
             <input type ="text" className="border-2 rounded-[15px] w-full py-4 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-brown-500" placeholder="Confirm your password..."></input>
           </div>
+          <Link href="/login">
           <div className="flex items-center justify-around bg-[#846046] w-[171px] h-[57px] rounded-[20px] px-[50px] mt-[65px] mb-[33px] mx-[45px] hover:brightness-110">
             <p className="text-body1 text-white font-poppins">Sign Up</p>
           </div>
+          </Link>
           <div className="text-orange-950 text-center text-sm">Or Sign Up with</div>
           <Link href="#gugel">
             <Image className="my-[10px]" src="/images/gugel.svg" alt="gugel" width={28} height={28}/>
@@ -33,6 +37,8 @@ const Signup: React.FC = () => {
             <Link href="/login"><span className="font-bold"> Login</span></Link>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     );
 };

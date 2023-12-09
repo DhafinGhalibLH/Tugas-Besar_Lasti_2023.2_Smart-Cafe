@@ -13,7 +13,7 @@ export default function Navbar() {
 
     return (
         <>
-        <div className="fixed top-0 z-50 w-screen">
+        <div className="fixed top-0 z-50 w-full max-w-[390px]">
             <div className="flex justify-between items-center py-[15px] px-[15px] rounded-b-[15px] bg-[#846046] z-30">
             <div className="flex justify-between items-center">
                 <Image src="images/logo.svg" alt="logo" width={43} height={37}/>
@@ -24,7 +24,7 @@ export default function Navbar() {
             </div>
             </div>
         </div>
-        <div className={`fixed top-0 mt-[20px] transition-transform duration-500 ease-in-out overflow-hidden flex flex-col bg-[#846046] w-full z-20 px-[48px] rounded-b-[30px] transform ${isOpen ? 'translate-y-[30px]' : '-translate-y-full'}`}>
+        <div className={`fixed top-0 mt-[20px] transition-transform duration-500 ease-in-out overflow-hidden flex flex-col bg-[#846046] w-full max-w-[390px] z-20 px-[48px] rounded-b-[30px] transform ${isOpen ? 'translate-y-[30px]' : '-translate-y-full'}`}>
             <Link className="font-poppins text-subtitle1 my-[10px] pt-[20px] text-white hover:brightness-90" href="/">Home</Link>
             <Link className="font-poppins text-subtitle1 my-[10px] text-white hover:brightness-90" href="/reservation">Reservation</Link>
             <Link className="font-poppins text-subtitle1 my-[10px] text-white hover:brightness-90" href="/menudrink">Our Menu</Link>

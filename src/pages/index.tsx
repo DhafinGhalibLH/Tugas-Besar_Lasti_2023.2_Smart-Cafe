@@ -15,7 +15,7 @@ const operationalSchedule = [
 export default function Homepage() {
   return (
     <div className="base flex flex-col items-center justify-center bg-white">
-      <div className="h-full w-full md:w-[375px] bg-white">
+      <div className="h-full w-full md:w-[390px] bg-white">
         {/* navbar */}
         <Navbar/>
         {/* reservation */}
